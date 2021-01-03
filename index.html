@@ -9,6 +9,23 @@
     alert(firstName + " loves " + partnerName + " "+n+ "%");
 }
 loveCal();</script>
+   <script>
+  function bmiCalculator(weight,height){
+  var weight= prompt("What is your weight in KG");
+  var height=prompt("Whatis your height in Meters");
+    var bmi=Math.floor(weight/ Math.pow(height,2));
+     
+     if (bmi <18.5){
+         alert("Your BMI is " + bmi +", so you are underweight");
+     }if (bmi >=18.5 && bmi <= 24.9) {
+          alert("Your BMI is " + bmi +", you have a normal weight");
+     }if (bmi>24.9){
+          alert("Your BMI is " + bmi +", so you are overweight");
+     }
+}
+bmiCalculator();
+     </script>
+
 <head>
   <meta charset="utf-8">
   <title>AL-Rahma Mount NGO</title>
